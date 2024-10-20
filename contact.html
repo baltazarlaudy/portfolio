@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Baltazar</title>
+</head>
+<body>
+    <div class="container">
+        <!--Menu du site -->
+        <header>
+            <nav class="navigation">
+                <div class="brand">
+                    Jean Jockson Laudy BALTAZAR
+                </div>
+                <ul class="menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--fin du menu-->
+      <section class="contact">
+        <div class="contact-wrapper">
+            <h2 class="title">Me contacter</h2>
+            <form action="#" id="form" class="form">
+                <div class="form-control">
+                    <label for="nom">Entrer votre nom: </label>
+                    <input type="text" name="nom" placeholder="Entrer votre nom complet" id="nom">
+                    <p class="invalidate" id="p-invalid">Veuillez entrer votre nom</p>
+                    <p class="validate " id="p-valid">&#x2714</p>
+                </div>
+                <div class="form-control">
+                    <label for="email">Entrer votre email: </label>
+                    <input type="email" name="nom" placeholder="Entrer un email valide" id="email">
+                    <p class="invalidate" id="email-invalid">Veuillez entre un email Valide</p>
+                    <p class="validate " id="email-valid">&#x2714</p>
+                </div>
+
+                <div class="form-control">
+                    <label for="message">Votre message</label>
+                    <textarea name="message" id="message" cols="50" rows="10" id="message"></textarea>
+                    <p class="invalidate" id="message-invalid">Le message ne peut pas etre vide</p>
+                    <p class="validate " id="message-valid">&#x2714</p>
+                </div>
+               <div class="button-form">
+                <button type="submit" class="btn btn-mini">Envoyer</button>
+               </div>
+            </form>
+        </div>
+      </section>
+    <footer class="footer">
+        Copyright 2024 by: Jean Jockson Laudy BALTAZAR
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
